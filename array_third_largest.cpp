@@ -9,7 +9,6 @@ int main() {
 	int third_largest = array[2];
 	int temp1 = largest;
 	int temp2 = second_largest;
-	int temp3 = third_largest;
 	
 	if (largest > second_largest && largest > third_largest){
 		if(second_largest > third_largest){
@@ -52,6 +51,6 @@ int main() {
     printf("%d", third_largest);
     
 	/*  Done by my own wit, I'm so proud of this lol.
-		Needs alot of optimization for sure though.  */	
+		Needs alot of optimization for sure, Especially in the if and else statement  */	
     return 0;
 }
